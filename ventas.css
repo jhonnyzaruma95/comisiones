@@ -1,4 +1,4 @@
-```css
+
 /* =========================================
    RESET
    ========================================= */
@@ -697,4 +697,11 @@ button:hover .flecha {
         align-items: center;
     }
 }
-```
+.mensaje-error {
+    display: block;
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 4px;
+    min-height: 18px;
+}

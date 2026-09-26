@@ -11,6 +11,36 @@ function calcularComision(numeroVentas, PrecioProducto) {
 
     return comision;
 }
+
+function validarInput(idInput, idError) {
+    const input = document.getElementById(idInput);
+    const error = document.getElementById(idError);
+    const valor = input.value.trim();
+
+    // Limpiar mensaje anterior
+    error.textContent = "";
+
+    // No puede estar vacío
+    if (valor === "") {
+        error.textContent = "Este campo no puede estar vacío.";
+        return false;
+    }
+
+    // Solo números
+    if (!/^\d+$/.test(valor)) {
+        error.textContent = "Solo se permiten números.";
+        return false;
+    }
+
+    // Máximo 5 dígitos
+    if (valor.length > 5) {
+        error.textContent = "Máximo 5 dígitos.";
+        return false;
+    }
+
+    return true;
+}
+
 function calcular(){
 
     //recuperamos propiedades de las cajas de texto
@@ -30,6 +60,7 @@ function calcular(){
     //let PrecioProductoStr = componentePrecio.value;
 
     //convertimos el texto a numero
+
 
     let sueldoBase = recuperarFloat("txtSueldoBase")
     let numeroVentas = recuperarFloat("txtVentas")

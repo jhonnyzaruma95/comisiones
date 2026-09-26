@@ -25,17 +25,20 @@
 
             <div class="campo">
                 <label for="txtSueldoBase">Salario Base:</label>
-                <input type="text" id="txtSueldoBase" placeholder="Ej: 500">
+                <input id="txtSueldoBase" onblur="validarInput('txtSueldoBase', 'errorSueldoBase')">
+                <span id="errorSueldoBase" class="mensaje-error"></span>
             </div>
 
             <div class="campo">
                 <label for="txtVentas">Número de ventas:</label>
-                <input type="text" id="txtVentas" placeholder="Ej: 10">
+                <input id="txtVentas" onblur="validarInput('txtVentas', 'errorVentas')">
+                <span id="errorVentas" class="mensaje-error"></span>
             </div>
 
             <div class="campo">
                 <label for="txtPrecio">Precio del producto:</label>
-                <input type="text" id="txtPrecio" placeholder="Ej: 50">
+                <input id="txtPrecio" onblur="validarInput('txtPrecio', 'errorPrecio')">
+                <span id="errorPrecio" class="mensaje-error"></span>
             </div>
 
             <button onclick="calcular()">
