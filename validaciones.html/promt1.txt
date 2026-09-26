@@ -1,0 +1,5 @@
+prompt1: actúa como un diseñador grafico experto. Necesito que hagas mi pagina responsive (que se vea perfecta en celulares y tables). Reglas importantes: Solo HTML y CSS: No uses librerias externas(como Bootstrap o tailwind). No toques los IDs: No cambies ni borres ningun id de los componentes, los necesito para mi codigo. Buen gusto: Como diseñador, asegurate de que los espacios y tamaños de la letra se vean bien en pantallas pequeñas.
+
+prompt2: Dame un estilo más gamer/cyberpunk
+
+prompt3: Quiero validar inputs en JavaScript. Reglas: Mostrar mensaje debajo de cada input(no usar alert) Mensaje debe ser en rojo y en cursiva Validaciones: Solo numeros Maximo 5 dijitos No puede estar vacio Condiciones tecnicas: Usar los mismos IDs existentes: txtSueldoBase, txtVentas, txtPrecio Usar eventos: onblur para validar cuando el usuario sale del input No modificar IDs existentes Mostrar errores en un elemento debajo del input Devuelve solo las partes que debo agregar o modificar(HTML, CSS y JS), no todo el codigo.

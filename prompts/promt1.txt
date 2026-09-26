@@ -1,2 +1,0 @@
-prompt1: actúa como un diseñador grafico experto. Necesito que hagas mi pagina responsive (que se vea perfecta en celulares y tables). Reglas importantes: Solo HTML y CSS: No uses librerias externas(como Bootstrap o tailwind). No toques los IDs: No cambies ni borres ningun id de los componentes, los necesito para mi codigo. Buen gusto: Como diseñador, asegurate de que los espacios y tamaños de la letra se vean bien en pantallas pequeñas.
-prompt2: Dame un estilo más gamer/cyberpunk
